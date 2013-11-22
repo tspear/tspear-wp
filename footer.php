@@ -42,7 +42,7 @@
 
     <!-- JS  -->
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
+    <!-- BS3 -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     <!-- WP FOOTER -->
