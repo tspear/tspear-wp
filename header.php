@@ -1,5 +1,5 @@
+<!-- HEADER.PHP -->
 <!DOCTYPE html>
-<?php echo '<!-- current template: ' . basename( get_page_template() ) . ' -->'; ?>
 <html lang="en">
   <head>
     <meta charset="utf-8">

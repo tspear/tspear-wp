@@ -2,6 +2,7 @@
 
 get_header(); ?>
 
+<H4>page.php</H4>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>

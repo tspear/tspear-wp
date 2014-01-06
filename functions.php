@@ -25,6 +25,25 @@
 	add_theme_support( 'custom-background' );
 
 
+	/**
+	 * Custom post type for Portfolio
+	 */
+	add_action( 'init', 'create_post_type' );
+	function create_post_type() {
+		register_post_type( 'portfolio',
+			array(
+				'labels' => array(
+					'name' => __( 'Portfolio Items' ),
+					'singular_name' => __( 'Portfolio Item' )
+				),
+			'public' => true,
+			'has_archive' => true,
+			'taxonomies' => array('category', 'post_tag') // this is IMPORTANT
+			)
+		);
+	}
+
+
 
 	/**
 	 * Enqueue scripts and styles

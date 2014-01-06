@@ -4,8 +4,8 @@
  *
  */
 get_header(); ?>
-	
-<H4>single.php</H4>
+
+<H4>single-portfolio.php</H4>
 
 
 <?php /* The loop */ ?>

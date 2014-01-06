@@ -7,6 +7,9 @@
 
 get_header(); ?>
 
+<div class="alert alert-info">category.php</div>
+
+
 		<?php if ( have_posts() ) : ?>
 		<div class="row">
 			<div class="col-lg-12">

@@ -7,6 +7,7 @@
  * @since Twenty Thirteen 1.0
  */
 ?>
+<H4>content.php</H4>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">

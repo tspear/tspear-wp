@@ -1,3 +1,4 @@
+<!-- FOOTER.PHP -->
     </div> <!-- /container -->
 
                 <div class="push"></div>
