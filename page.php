@@ -2,7 +2,7 @@
 
 get_header(); ?>
 
-<H4>page.php</H4>
+<H6>page.php</H6>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
