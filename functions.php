@@ -30,7 +30,7 @@
 	 */
 	add_action( 'init', 'create_post_type' );
 	function create_post_type() {
-		register_post_type( 'portfolio',
+		register_post_type( 'ts_portfolio',
 			array(
 				'labels' => array(
 					'name' => __( 'Portfolio Items' ),
@@ -38,6 +38,7 @@
 				),
 			'public' => true,
 			'has_archive' => true,
+			'rewrite' => array('slug' => 'portfolio'),
 			'taxonomies' => array('category', 'post_tag') // this is IMPORTANT
 			)
 		);
