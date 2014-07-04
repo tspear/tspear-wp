@@ -1,0 +1,87 @@
+/*
+Theme Name: tspear
+Theme URI: http://tspear.com/
+Description: bootstrap-based portfolio theme
+Author: tspear
+Author URI: http://tspear.com/
+Version: 1.1b
+Tags: grey, responsive, bootstrap
+License:
+License URI:
+General comments (optional).
+*/
+
+
+a,
+a:hover,
+a:visited,
+.sitefooter a:hover
+{
+	color: #FFF;
+}
+
+/* HEADER */
+.navbar-inverse {
+	background: #444;
+
+}
+.brandlogo {
+	padding-top: 15px;
+}
+
+
+/* FOOTER */
+
+.sitefooter {
+	background: #444;
+	/*margin-top: 80px;*/
+	/*margin-bottom: 0px;*/
+	padding-top: 40px;
+}
+
+.sitefooter,
+.sitefooter a {
+	color: #999;
+}
+
+.sitefooter ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/* LISTS */
+
+.list-inline li {
+	padding-left: 0;
+}
+
+
+/* breadcrumbs */
+.breadcrumb {
+	background-color: #999;
+}
+
+
+
+
+/* sticky footer */
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -18em;
+}
+
+.sitefooter, .push {
+	height: 400px;
+}
+
+
+/* WPStats smiley remover */
+img#wpstats{display:none}
+
