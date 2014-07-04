@@ -1,0 +1,421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"end",
+				"endif"
+			],
+			[
+				"ima",
+				"imageInfo"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"im",
+				"imgURL"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"ASCII Decorator: Font Selector"
+			],
+			[
+				"a",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"Set Syntax: NAnt Build File"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 561.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tvroom/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/functions.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-includes/plugin.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/templetons_theme.sublime-project",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/js/gallery.js",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/js/jquery.ad-gallery.js",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/css/jquery.ad-gallery.css",
+		"/var/folders/85/yqqk085d4dz__gh4z5b1tg880000gn/T/tmph2qem_.txt",
+		"/Users/tvroom/hello_world.sh",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/singleSearch.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/actionPasswordReset.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/add_location.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/addCurrency.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/addLocation.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/addMortgage.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/map.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/style.scss",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/style.css",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/header.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-2col-left-banner.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/js/jquery.flexslider.js",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/footer.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/functions.php",
+		"/Users/tvroom/Dropbox/Work/TS1296-Templetons Redesign/templetons_dev.sql",
+		"/Users/tvroom/Dropbox/Work/TS1296-Templetons Redesign/templetons-sec.csv",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-container.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-propertysearch.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-2col-left.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-2col-banner.php",
+		"/Users/tvroom/Desktop/metaslider.html",
+		"/Users/tvroom/Desktop/default",
+		"/Users/tvroom/Desktop/default-ssl",
+		"/Users/tvroom/Dropbox/Work/sitedev/addntox/index.html",
+		"/Users/tvroom/Desktop/templeton-propsearch_scratch.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/TWC.current/wp-content/themes/TWC/style.css",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-nocontainer.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/WHI-site/CNAME",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/style.old",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/content-page.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-services.php",
+		"/Users/tvroom/Desktop/tspear.github.io/README.md",
+		"/Users/tvroom/Desktop/tspear.github.io/index.html",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-config.php",
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/twentyfourteen/style.css",
+		"/Users/tvroom/Downloads/templetons.wordpress.2014-05-07.xml",
+		"/Users/tvroom/Desktop/Native.Instruments.Massive.v1.1.4.VSTi.RTAS.AU.MAC.OSX.UB-DYNAMiCS/DYNAMiCS.nfo",
+		"/Users/tvroom/Desktop/Native.Instruments.Massive.v1.1.4.VSTi.RTAS.AU.MAC.OSX.UB-DYNAMiCS/file_id.diz",
+		"/Users/tvroom/Documents/torrents/FabFilter.Total.Bundle.June.2013.MacOSX-Xdb/Xdb.nfo",
+		"/Users/tvroom/Dropbox/Work/sitedev/addntox.com/index.html",
+		"/Users/tvroom/Dropbox/Work/sitedev/addntox.com/analyticstracking.php",
+		"/Volumes/Drobo/Software/Audio Plugins/Waves.Complete.v8r3.AU.VST.VST3.RTAS.TDM.MAC.OSX.Intel-ATeam/ATeam.nfo",
+		"/private/etc/hosts",
+		"/Users/tvroom/.bash_profile"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$imageInfo",
+			"width:",
+			"gallery",
+			"arrange",
+			"float",
+			"templetonsrealty.com",
+			"<div",
+			"<table",
+			"text-decoration",
+			".navbar-nav>li>a",
+			"navbar-i",
+			"<select",
+			"localityInfo",
+			"$link",
+			"style=\".*\"",
+			"optgroup",
+			"/buttton",
+			"/div",
+			"div class=\"button\"",
+			"commercialLease(",
+			"#374741",
+			"374741",
+			"<button ",
+			"<button",
+			"twentyfourteen",
+			"ad",
+			"<html>\n",
+			"hello",
+			"twentyfourteen",
+			"templetons",
+			"app"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"/button",
+			"/buttton",
+			"button class=\"btn\"",
+			"$dark-colour",
+			"<button type=\"button\" ",
+			"templetons",
+			"AD"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "single.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.figlet_preview":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 259.0
+	},
+	"project": "tspear.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
