@@ -1,13 +1,9 @@
 <?php
 /**
  * The default template for displaying content. Used for both single and index/archive/search.
- *
- * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
  */
 ?>
-<H4>content.php</H4>
+<!-- [CONTENT.PHP] -->
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -43,3 +39,5 @@
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post -->
+
+<!-- [ / CONTENT.PHP] -->
