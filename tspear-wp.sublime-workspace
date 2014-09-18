@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"spec",
+				"spectext"
+			],
+			[
+				"bs3-c",
+				"bs3-container	bs3-container"
+			],
+			[
 				"end",
 				"endif"
 			],
@@ -92,10 +100,26 @@
 	"buffers":
 	[
 		{
-			"file": "single.php",
+			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 552,
+				"buffer_size": 1078,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 2200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2997,
 				"line_ending": "Unix"
 			}
 		}
@@ -103,11 +127,31 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 367.0,
 		"selected_items":
 		[
 			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
 				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"orem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -125,10 +169,6 @@
 			[
 				"lorem",
 				"Snippet: Lorem ipsum"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"pa",
@@ -166,9 +206,61 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/sass"
+	],
 	"file_history":
 	[
-		"/Users/tvroom/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/functions.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/archive.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/content.php",
+		"/Users/tim/Box Sync/Audience Facing UX&D/BBC iD/Data Transformation/User Research/CTR_research_round2_100914/notes/CTR research round 2 - TP3 - Mark [TS].rtf",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/content-thumbnail.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/config.codekit",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/category.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/footer.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-config.php",
+		"/Users/tim/Desktop/Note Export.enex",
+		"/Users/tim/Dropbox/Work/BBC/Work/research videos/day1 - weds 10/100914-0855-WP4-readme.txt",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/single.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/index.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/header.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/page.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/tmac.sublime-project",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/database/drivers/oci8/oci8_driver.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/SASS/tmac_main.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/views/page_footer_view.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/views/panel_setup_view.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/libraries/Form_validation.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/SASS/.sass-cache/a66eb9758ed6147d014f11c3a1d4d5eee836d722/tmac_main.scssc",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/core/Security.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/core/Common.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/helpers/string_helper.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/libraries/Typography.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/helpers/typography_helper.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/sitemap.xml",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/config/foreign_chars.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/system/libraries/Ftp.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/views/page_header_view.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/config/user_agents.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/views/analytics_view.php",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/css/tmac_main.css",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/css/main.css",
+		"/Users/tim/Dropbox/Work/sitedev/tmac/application/views/page_main.php",
+		"/Users/tim/Dropbox/IFTTT/Feed/BuzzFeed  - Latest/buzzfeed.csv.txt",
+		"/Users/tim/Dropbox/Work/sitedev/sass/sass/sasstest.scss",
+		"/Users/tim/Dropbox/Work/sitedev/sass/kit/header.kit",
+		"/Users/tim/Dropbox/Work/sitedev/sass/kit/footer.kit",
+		"/Users/tim/Dropbox/Work/sitedev/sass/kit/index.kit",
+		"/Users/tim/Dropbox/Work/sitedev/sass/css/sasstest.css",
+		"/Users/tim/Dropbox/Work/sitedev/sass/css/main.css",
+		"/Users/tim/Dropbox/Work/sitedev/sass/js/main.js",
+		"/Users/tim/Dropbox/Work/sitedev/sass/index.html",
+		"/Users/tim/Dropbox/Work/sitedev/sass/bower_components/bootstrap/bower.json",
+		"/Users/tim/Dropbox/Work/sitedev/sass/bower_components/bootstrap/grunt/bs-lessdoc-parser.js",
+		"/Users/tim/Dropbox/Work/sitedev/sass/kit/googleanalytics.kit",
+		"/Users/tim/Dropbox/Work/sitedev/kit/index.kit",
 		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-includes/plugin.php",
 		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/templetons_theme.sublime-project",
 		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/plugins/realestate/js/gallery.js",
@@ -224,7 +316,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -239,6 +331,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h4",
+			"#EEE",
 			"$imageInfo",
 			"width:",
 			"gallery",
@@ -277,6 +371,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"$primary-color",
 			"",
 			"/button",
 			"/buttton",
@@ -300,11 +395,40 @@
 			[
 				{
 					"buffer": 0,
-					"file": "single.php",
-					"semi_transient": true,
+					"file": "sass/style.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 552,
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2200,
 						"regions":
 						{
 						},
@@ -317,13 +441,44 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 41.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -372,7 +527,7 @@
 	{
 		"height": 259.0
 	},
-	"project": "tspear.sublime-project",
+	"project": "tspear-wp.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -384,19 +539,71 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"content.php"
+			],
+			[
+				"arc",
+				"archive.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"foo",
+				"application/views/page_footer_view.php"
+			],
+			[
+				"foot",
+				"application/views/page_footer_view.php"
+			],
+			[
+				"scss",
+				"SASS/tmac_main.scss"
+			],
+			[
+				"set",
+				"application/views/panel_setup_view.php"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
 				"",
-				"index.html"
+				"kit/index.kit"
+			],
+			[
+				"sass",
+				"sass/sasstest.scss"
+			],
+			[
+				"in",
+				"kit/index.kit"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/tspear-wp.sublime-workspace"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -406,14 +613,15 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_visible": false,
+	"side_bar_width": 249.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
