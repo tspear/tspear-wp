@@ -7,11 +7,8 @@
  * It is used to display a page when nothing more specific matches a query.
  * For example, it puts together the home page when no home.php file exists.
  */
-
 echo '<!-- current template: ' . basename( get_page_template() ) . ' -->';
-
 get_header();
-
 ?>
 
 

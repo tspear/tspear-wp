@@ -5,8 +5,7 @@
  */
 get_header(); ?>
 	
-<H4>single.php</H4>
-
+<script>console.log('**template: single.php')</script>
 
 <?php /* The loop */ ?>
 <?php while ( have_posts() ) : the_post(); ?>

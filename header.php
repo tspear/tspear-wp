@@ -1,16 +1,14 @@
-<!-- HEADER.PHP -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tim Spear"><!-- BS author -->
     
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -23,7 +21,7 @@
 
     <!-- WP HEAD  -->
     <?php wp_head(); ?>
-    <!-- END WP HEAD -->
+    <!-- / WP HEAD -->
 
   </head>
 
@@ -79,10 +77,3 @@
       </div><!-- /container -->
 
     </header>
-
-    <div class="container">
-
-
-      <?php if ( function_exists('yoast_breadcrumb') ) {
-      yoast_breadcrumb('<ol class="breadcrumb"><li>','</li></ol>');
-      } ?>

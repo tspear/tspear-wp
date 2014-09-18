@@ -1,8 +1,6 @@
-<?php
+<?php get_header(); ?>
 
-get_header(); ?>
-
-<H6>page.php</H6>
+<script>console.log('**template: page.php')</script>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -15,11 +13,9 @@ get_header(); ?>
 						</div>
 						<?php endif; ?>
 
-
 						<?php if ( get_post_meta( get_the_ID(), 'hide_post_title', true ) == false) : ?>
 							<h1 class="entry-title"><?php the_title(); ?></h1>
 						<?php endif; ?>
-
 
 					</header><!-- .entry-header -->
 

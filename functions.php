@@ -12,7 +12,18 @@
 	 * Enqueue scripts and styles
 	 */
 	function tspear_scripts() {
+		
+		// Boostrap CSS
+		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' ); // local version for offline Dev
+		// wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' ); // Bootstrap CDN
+		
+		// main stylesheet.
 		wp_enqueue_style( 'tspear-style', get_stylesheet_uri() );
+		
+		// Boostrap JS - (move to footer)
+		wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/lib/bootstrap.js', array('jquery')); // local version for offline Dev
+		// wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js', array('jquery')); // Bootstrap CDN
+
 	}
 
 	add_action( 'wp_enqueue_scripts', 'tspear_scripts' );
