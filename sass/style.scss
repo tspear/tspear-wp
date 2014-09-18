@@ -11,19 +11,23 @@ License URI:
 General comments (optional).
 */
 
+// sass vars
+$dark-color: #333;
+$light-color: #999;
 
+
+//
 a,
 a:hover,
 a:visited,
 .sitefooter a:hover
 {
-	color: #FFF;
+	color: $dark-color;
 }
 
 /* HEADER */
 .navbar-inverse {
-	background: #444;
-
+	background: $dark-color;
 }
 .brandlogo {
 	padding-top: 15px;
@@ -31,9 +35,8 @@ a:visited,
 
 
 /* FOOTER */
-
 .sitefooter {
-	background: #444;
+	background: $dark-color;
 	/*margin-top: 80px;*/
 	/*margin-bottom: 0px;*/
 	padding-top: 40px;
@@ -41,7 +44,7 @@ a:visited,
 
 .sitefooter,
 .sitefooter a {
-	color: #999;
+	color: $light-color;
 }
 
 .sitefooter ul {
@@ -58,7 +61,7 @@ a:visited,
 
 /* breadcrumbs */
 .breadcrumb {
-	background-color: #999;
+	background-color: $light-color;
 }
 
 
