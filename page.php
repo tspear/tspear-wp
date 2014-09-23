@@ -1,7 +1,6 @@
 <?php get_header(); ?>
-
 <script>console.log('**template: page.php')</script>
-
+<div class="container">	
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -27,6 +26,5 @@
 				</article><!-- #post -->
 
 			<?php endwhile; ?>
-
-
+</div>
 <?php get_footer(); ?>
