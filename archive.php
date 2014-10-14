@@ -16,12 +16,9 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
-
 get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
+<!-- archive.php -->
+	<div class="container">
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php
@@ -32,24 +29,24 @@ get_header(); ?>
 					elseif ( is_year() ) :
 						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
 					else :
-						_e( 'Archives', 'twentythirteen' );
+						_e( 'Archive.php', 'twentythirteen' );
 					endif;
 				?></h1>
 			</header><!-- .archive-header -->
 
+<div class="row">
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', get_post_format() ); ?>
+				<div class="col-sm-6">
+					<?php get_template_part( 'content', 'thumbnail' ); ?>					
+				</div>
 			<?php endwhile; ?>
-
-			<?php twentythirteen_paging_nav(); ?>
+</div>
 
 		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
+			<?php get_template_part( 'content', get_post_format() ); ?>
 		<?php endif; ?>
 
-		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

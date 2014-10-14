@@ -6,6 +6,7 @@
 
 
 	// THEME SUPPORT
+	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'custom-background' );
 
 	/**
@@ -81,6 +82,18 @@
 	add_action( 'widgets_init', 'ts_widgets_init' );
 
 
+	function ts_placeholder() {	
+	 	$imgurl = get_template_directory_uri() . "/img/ph_576p.gif";
+		return $imgurl;
+	};
 
+	function ts_imgresponsive_func( $atts ) {
+      $atts = shortcode_atts( array(
+ 	      'id' => null,
+      ), $atts );
+      $code = "<img src='' class='img-responsive'>";
+      return $code;
+	}
+	add_shortcode( 'imgresponsive', 'ts_imgresponsive_func' );
 
 ?>
