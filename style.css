@@ -10,29 +10,38 @@ License:
 License URI:
 General comments (optional).
 */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 a,
 a:hover,
 a:visited,
 .sitefooter a:hover {
-  color: #333333; }
+  color: #555; }
+
+a:hover {
+  text-decoration: none;
+  color: white; }
+
+.superjumbo {
+  font-size: 10em;
+  font-weight: bold;
+  line-height: 1.0; }
 
 /* HEADER */
-.navbar-inverse {
-  background: #333333; }
-
 .brandlogo {
   padding-top: 15px; }
 
 /* FOOTER */
 .sitefooter {
-  background: #333333;
+  background: #555;
   /*margin-top: 80px;*/
   /*margin-bottom: 0px;*/
   padding-top: 40px; }
 
 .sitefooter,
 .sitefooter a {
-  color: #999999; }
+  color: #999; }
 
 .sitefooter ul {
   list-style-type: none;
@@ -44,7 +53,7 @@ a:visited,
 
 /* breadcrumbs */
 .breadcrumb {
-  background-color: #999999; }
+  background-color: #999; }
 
 /* sticky footer */
 html, body {
@@ -62,3 +71,6 @@ html, body {
 /* WPStats smiley remover */
 img#wpstats {
   display: none; }
+
+.img-thumb {
+  margin-bottom: 15px; }

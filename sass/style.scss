@@ -12,11 +12,17 @@ General comments (optional).
 */
 
 // sass vars
-$dark-color: #333;
+$dark-color: #555;
 $light-color: #999;
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 //
+
+body {
+	font-family: $font-stack;
+}
+
 a,
 a:hover,
 a:visited,
@@ -25,9 +31,23 @@ a:visited,
 	color: $dark-color;
 }
 
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+.superjumbo {
+	font-size: 10em;
+	font-weight: bold;
+	line-height: 1.0;
+}
+
+
+
 /* HEADER */
 .navbar-inverse {
-	background: $dark-color;
+	//background: $dark-color;
 }
 .brandlogo {
 	padding-top: 15px;
@@ -88,3 +108,9 @@ html, body {
 /* WPStats smiley remover */
 img#wpstats{display:none}
 
+
+// UTILITY
+.img-thumb {
+	margin-bottom: 15px;
+	//background-color: $dark-color;
+}
