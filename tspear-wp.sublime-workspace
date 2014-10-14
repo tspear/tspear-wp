@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-stack"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
 				"spec",
 				"spectext"
 			],
@@ -22,10 +34,6 @@
 			[
 				"pri",
 				"print_r"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"im",
@@ -99,30 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 1078,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 2200,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 2997,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -208,11 +192,30 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/sass"
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear"
 	],
 	"file_history":
 	[
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/sass/style.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
+		"/Users/tim/.bash_profile",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
+		"/Users/tim/Desktop/lll.htnml",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/jumbotron.less",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/style.css",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/css.js",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/js/scrollspy.js",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/tag.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/var/toString.js",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/manipulation/_evalUrl.js",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/header.php",
+		"/Users/tim/Desktop/spotify.html",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/footer.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/tspear-wp.sublime-project",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/archive.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/content.php",
 		"/Users/tim/Box Sync/Audience Facing UX&D/BBC iD/Data Transformation/User Research/CTR_research_round2_100914/notes/CTR research round 2 - TP3 - Mark [TS].rtf",
@@ -331,6 +334,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Archives",
+			"twentythirteen",
 			"h4",
 			"#EEE",
 			"$imageInfo",
@@ -371,6 +376,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"tspear",
 			"$primary-color",
 			"",
 			"/button",
@@ -390,97 +396,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								276,
-								276
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2997,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 41.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -530,7 +447,7 @@
 	"project": "tspear-wp.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -539,8 +456,36 @@
 		"selected_items":
 		[
 			[
+				"jet",
+				"single-jetpack-portfolio.php"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
 				"con",
-				"content.php"
+				"content-thumbnail.php"
+			],
+			[
+				"scss",
+				"sass/style.scss"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
 			],
 			[
 				"arc",
@@ -551,24 +496,12 @@
 				"header.php"
 			],
 			[
-				"fun",
-				"functions.php"
-			],
-			[
 				"inde",
 				"index.php"
 			],
 			[
 				"foo",
 				"application/views/page_footer_view.php"
-			],
-			[
-				"foot",
-				"application/views/page_footer_view.php"
-			],
-			[
-				"scss",
-				"SASS/tmac_main.scss"
 			],
 			[
 				"set",
@@ -600,7 +533,7 @@
 		[
 			[
 				"",
-				"~/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/tspear-wp.sublime-workspace"
+				"~/Dropbox/Work/sitedev/tmac/tmac.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -620,7 +553,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 249.0,
 	"status_bar_visible": true,
 	"template_settings":
