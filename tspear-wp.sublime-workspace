@@ -107,6 +107,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "single-jetpack-portfolio.php",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 1390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content.php",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -196,6 +220,7 @@
 	],
 	"file_history":
 	[
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/sass/style.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
@@ -396,8 +421,95 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "single-jetpack-portfolio.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "content.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -456,6 +568,10 @@
 		"selected_items":
 		[
 			[
+				"scss",
+				"sass/style.scss"
+			],
+			[
 				"jet",
 				"single-jetpack-portfolio.php"
 			],
@@ -470,10 +586,6 @@
 			[
 				"con",
 				"content-thumbnail.php"
-			],
-			[
-				"scss",
-				"sass/style.scss"
 			],
 			[
 				"fun",
