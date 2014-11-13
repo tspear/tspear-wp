@@ -12,8 +12,9 @@ General comments (optional).
 */
 
 // sass vars
-$dark-color: #555;
-$light-color: #999;
+$mid-color: #777;
+$dark-color: darken($mid-color,30);
+$light-color: lighten($mid-color,30);
 $font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
@@ -43,11 +44,19 @@ a:hover
 	line-height: 1.0;
 }
 
+.page-header {
+	border: none;
+}
+
+.vertically-spaced {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
 
 
 /* HEADER */
 .navbar-inverse {
-	//background: $dark-color;
+	background: $dark-color;
 }
 .brandlogo {
 	padding-top: 15px;
@@ -80,6 +89,7 @@ a:hover
 
 
 /* breadcrumbs */
+
 .breadcrumb {
 	background-color: $light-color;
 }
@@ -101,7 +111,7 @@ html, body {
 }
 
 .sitefooter, .push {
-	height: 400px;
+	height: 370px;
 }
 
 
@@ -113,4 +123,13 @@ img#wpstats{display:none}
 .img-thumb {
 	margin-bottom: 15px;
 	//background-color: $dark-color;
+}
+
+// Jetpack Portfolio - overrides
+div.portfolio-entry {
+	margin: 0 0 1.2em;
+}
+
+.portfolio-entry-title {
+	display: none;
 }
