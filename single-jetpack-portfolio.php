@@ -22,8 +22,7 @@ get_header(); ?>
 	<?php endwhile; ?>
 
 	<h3>More work</h3>
-	<?php echo do_shortcode('[portfolio display_types=false display_tags=false display_content=false columns=6 showposts=3]'); ?>
-	<button class="btn btn-default btn-sm"><?php next_post_link('%link'); ?> <span class="glyphicon glyphicon-circle-arrow-right"></span></button>
+	<?php echo do_shortcode('[portfolio display_types=false display_tags=false display_content=false columns=6 showposts=20]'); ?>
 
 </div>
 <?php get_footer(); ?>
