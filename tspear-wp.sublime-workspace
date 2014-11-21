@@ -119,38 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "single-jetpack-portfolio.php",
-			"settings":
-			{
-				"buffer_size": 948,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content.php",
-			"settings":
-			{
-				"buffer_size": 1187,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 1660,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "category.php",
-			"settings":
-			{
-				"buffer_size": 755,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -240,12 +208,12 @@
 	],
 	"file_history":
 	[
-		"/Users/tim/.bash_profile",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/sass/style.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
+		"/Users/tim/.bash_profile",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/footer.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/sass/style.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
@@ -457,125 +425,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "single-jetpack-portfolio.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								766,
-								766
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "content.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1187,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								699,
-								699
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1660,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1611,
-								1611
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 1230.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "category.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
