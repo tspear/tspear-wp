@@ -29,7 +29,7 @@ get_header(); ?>
 					elseif ( is_year() ) :
 						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
 					else :
-						_e( 'Archive.php', 'twentythirteen' );
+						echo 'Portfolio / '.single_tag_title( '', false );
 					endif;
 				?></h1>
 			</header><!-- .archive-header -->
