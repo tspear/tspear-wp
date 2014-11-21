@@ -14,7 +14,7 @@ get_header(); ?>
 	 
 	 	<div class="taglist">
 			<div class="btn-group btn-group-sm">
-				<?php echo the_terms($post->ID,'jetpack-portfolio-tag','<button type="button" class="btn btn-default">','</button><button type="button" class="btn btn-default">','</button>'); ?>
+				<?php echo the_terms($post->ID, 'jetpack-portfolio-tag', '<h4> Tagged: ',', ','</h4>'); ?>
 			</div>
 		</div>
 		
@@ -23,6 +23,9 @@ get_header(); ?>
 
 	<h3>More work</h3>
 	<?php echo do_shortcode('[portfolio display_types=false display_tags=false display_content=false columns=6 showposts=20]'); ?>
+
+	<?php previous_post_link('<h4>%link</h4>'); ?>
+	<?php next_post_link('<h4>%link</h4>'); ?>
 
 </div>
 <?php get_footer(); ?>
