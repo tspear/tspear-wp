@@ -14,7 +14,7 @@ get_header(); ?>
 	 
 	 	<div class="taglist">
 			<div class="btn-group btn-group-sm">
-				<?php echo the_terms($post->ID, 'jetpack-portfolio-tag', '<strong> Tagged: ',', ','</strong>'); ?>
+				<span class="glyphicon glyphicon-tags"></span><?php echo the_terms($post->ID, 'jetpack-portfolio-tag', '<strong>',', ','</strong>'); ?>
 			</div>
 		</div>
 		
