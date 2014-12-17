@@ -35,6 +35,9 @@ a:hover {
   margin-top: 15px;
   margin-bottom: 30px; }
 
+.glyphicon-margin-right {
+  margin-right: 8px; }
+
 /* HEADER */
 .navbar-inverse {
   background: #2a2a2a; }
@@ -78,12 +81,12 @@ html, body {
 .sitefooter, .push {
   height: 370px; }
 
+.img-thumb {
+  margin-bottom: 15px; }
+
 /* WPStats smiley remover */
 img#wpstats {
   display: none; }
-
-.img-thumb {
-  margin-bottom: 15px; }
 
 div.portfolio-entry {
   margin: 0 0.5em 0.5em 0; }

@@ -53,6 +53,9 @@ a:hover
 	margin-bottom: 30px;
 }
 
+.glyphicon-margin-right {
+	margin-right:8px;
+}
 
 /* HEADER */
 .navbar-inverse {
@@ -115,8 +118,7 @@ html, body {
 }
 
 
-/* WPStats smiley remover */
-img#wpstats{display:none}
+
 
 
 // UTILITY
@@ -124,6 +126,11 @@ img#wpstats{display:none}
 	margin-bottom: 15px;
 	//background-color: $dark-color;
 }
+/* WPStats smiley remover */
+img#wpstats{
+	display: none;
+}
+
 
 // Jetpack Portfolio - overrides
 div.portfolio-entry {

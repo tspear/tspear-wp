@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 	
-<script>console.log('** template: jetpacksingle.php')</script>
+<script>//console.log('** template: jetpacksingle.php')</script>
 
 <div class='container'>
 	<?php /* The loop */ ?>
@@ -12,10 +12,9 @@ get_header(); ?>
 
 		<?php get_template_part( 'content', get_post_format() ); ?>
 	 
-	 	<div class="taglist">
-			<div class="btn-group btn-group-sm">
-				<span class="glyphicon glyphicon-tags"></span><?php echo the_terms($post->ID, 'jetpack-portfolio-tag', '<strong>',', ','</strong>'); ?>
-			</div>
+		<div class="taglist">
+		<span class="glyphicon glyphicon-tags glyphicon-margin-right"></span>
+		<?php echo the_terms($post->ID, 'jetpack-portfolio-tag', '<strong>',', ','</strong>'); ?>
 		</div>
 		
 	<?php /* End The loop */ ?>
