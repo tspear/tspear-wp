@@ -1,14 +1,14 @@
 /*
-Theme Name: tspear
-Theme URI: http://tspear.com/
-Description: bootstrap-based portfolio theme
-Author: tspear
-Author URI: http://tspear.com/
-Version: 1.1b
-Tags: grey, responsive, bootstrap
-License:
-License URI:
-General comments (optional).
+	Theme Name: tspear
+	Theme URI: http://tspear.com/
+	Description: bootstrap-based portfolio theme
+	Author: tspear
+	Author URI: http://tspear.com/
+	Version: 1.1b
+	Tags: grey, responsive, bootstrap
+	License:
+	License URI:
+	General comments (optional).
 */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -28,6 +28,10 @@ a:hover {
   font-weight: bold;
   line-height: 1.0; }
 
+/* breadcrumbs */
+.breadcrumb {
+  background-color: #c3c3c3; }
+
 .page-header {
   border: none; }
 
@@ -38,6 +42,17 @@ a:hover {
 .glyphicon-margin-right {
   margin-right: 8px; }
 
+/* LISTS */
+.list-inline li {
+  padding-left: 0; }
+
+.img-thumb {
+  margin-bottom: 15px; }
+
+/* WPStats - smiley remover */
+img#wpstats {
+  display: none; }
+
 /* HEADER */
 .navbar-inverse {
   background: #2a2a2a; }
@@ -45,28 +60,21 @@ a:hover {
 .brandlogo {
   padding-top: 15px; }
 
-/* FOOTER */
+/* 
+	FOOTER
+*/
 .sitefooter {
   background: #2a2a2a;
-  /*margin-top: 80px;*/
-  /*margin-bottom: 0px;*/
   padding-top: 40px; }
-
-.sitefooter,
-.sitefooter a {
-  color: #c3c3c3; }
-
-.sitefooter ul {
-  list-style-type: none;
-  padding-left: 0; }
-
-/* LISTS */
-.list-inline li {
-  padding-left: 0; }
-
-/* breadcrumbs */
-.breadcrumb {
-  background-color: #c3c3c3; }
+  .sitefooter,
+  .sitefooter a,
+  .sitefooter a:visited {
+    color: #c3c3c3; }
+  .sitefooter a:hover {
+    color: #FFF; }
+  .sitefooter ul {
+    list-style-type: none;
+    padding-left: 0; }
 
 /* sticky footer */
 html, body {
@@ -80,13 +88,6 @@ html, body {
 
 .sitefooter, .push {
   height: 370px; }
-
-.img-thumb {
-  margin-bottom: 15px; }
-
-/* WPStats smiley remover */
-img#wpstats {
-  display: none; }
 
 div.portfolio-entry {
   margin: 0 0.5em 0.5em 0; }

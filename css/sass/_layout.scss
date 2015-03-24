@@ -1,0 +1,28 @@
+.page-header {
+	border: none;
+}
+
+.vertically-spaced {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.glyphicon-margin-right {
+	margin-right:8px;
+}
+
+/* LISTS */
+.list-inline li {
+	padding-left: 0;
+}
+
+// UTILITY
+.img-thumb {
+	margin-bottom: 15px;
+	//background-color: $dark-color;
+}
+
+/* WPStats - smiley remover */
+img#wpstats{
+	display: none;
+}

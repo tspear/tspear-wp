@@ -1,0 +1,29 @@
+/*
+	Theme Name: tspear
+	Theme URI: http://tspear.com/
+	Description: bootstrap-based portfolio theme
+	Author: tspear
+	Author URI: http://tspear.com/
+	Version: 1.1b
+	Tags: grey, responsive, bootstrap
+	License:
+	License URI:
+	General comments (optional).
+*/
+
+// Variables
+@import 'variables';
+
+// Typography
+@import 'typography';
+
+// Layout
+@import 'layout';
+
+// Header & Footer.
+@import 'header';
+@import 'footer';
+
+@import 'stickyfooter';
+
+@import 'jetpack-portfolio';

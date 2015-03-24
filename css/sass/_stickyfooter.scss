@@ -1,0 +1,16 @@
+/* sticky footer */
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -18em;
+}
+
+.sitefooter, .push {
+	height: 370px;
+}

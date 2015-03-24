@@ -1,0 +1,29 @@
+body {
+	font-family: $font-stack;
+}
+
+a,
+a:hover,
+a:visited,
+.sitefooter a:hover
+{
+	color: $dark-color;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+.superjumbo {
+	font-size: 10em;
+	font-weight: bold;
+	line-height: 1.0;
+}
+
+/* breadcrumbs */
+
+.breadcrumb {
+	background-color: $light-color;
+}

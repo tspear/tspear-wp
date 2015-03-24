@@ -1,0 +1,25 @@
+/* 
+	FOOTER
+*/
+
+.sitefooter {
+	background: $dark-color;
+	padding-top: 40px;
+
+	&,
+	a,
+	a:visited {
+		color: $light-color;
+	}
+	a:hover {
+		color: #FFF;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+
+}
+
