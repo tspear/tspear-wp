@@ -13,27 +13,27 @@
 	 * Enqueue scripts and styles
 	 */
 	function tspear_scripts() {
-		
-		// Boostrap CSS
-		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' ); // local version for offline Dev
-		// wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' ); // Bootstrap CDN
-		
+		define("LIVEDOMAIN", "tspear.com");
+		// Boostrap CSS		
+		if (strpos($_SERVER['HTTP_HOST'], LIVEDOMAIN) !== FALSE) {
+			// CDN
+			wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );
+			wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js', array('jquery'));
+		} else {
+			// local version
+			wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css' );
+			wp_enqueue_script('bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'));
+		};
 		// main stylesheet.
 		wp_enqueue_style( 'tspear-style', get_stylesheet_uri() );
-		
-		// Boostrap JS - (move to footer)
-		wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/lib/bootstrap.js', array('jquery')); // local version for offline Dev
-		// wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js', array('jquery')); // Bootstrap CDN
-
 	}
-
 	add_action( 'wp_enqueue_scripts', 'tspear_scripts' );
 
 
 	/**
 	*		 REGISTER NAVBARS
-	 *
-	 **/
+	*
+	**/
 
 	function register_my_menu() {
 		register_nav_menu( 'primary', 'Primary Menu' );
