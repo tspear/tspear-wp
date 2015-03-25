@@ -4,7 +4,7 @@
  * Used for both single and index/archive/search.
  */
 ?>
-<!-- [CONTENT.PHP] -->
+<!-- CONTENT.PHP -->
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>
 	<header class="entry-header">
@@ -31,4 +31,4 @@
 
 </article><!-- #post -->
 
-<!-- [ / CONTENT.PHP] -->
+<!-- /CONTENT.PHP -->
