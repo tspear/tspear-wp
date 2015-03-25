@@ -87,13 +87,5 @@
 		return $imgurl;
 	};
 
-	function ts_imgresponsive_func( $atts ) {
-      $atts = shortcode_atts( array(
- 	      'id' => null,
-      ), $atts );
-      $code = "<img src='' class='img-responsive'>";
-      return $code;
-	}
-	add_shortcode( 'imgresponsive', 'ts_imgresponsive_func' );
 
 ?>
