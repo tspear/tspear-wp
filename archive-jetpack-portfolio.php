@@ -13,7 +13,7 @@ get_header(); ?>
 			<div class="row">
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="col-sm-6 col-md-4 portfolio-thumb">
+				<div class="col-sm-6 col-md-4 portfolio-entry">
 					<?php get_template_part( 'content', 'thumbnail' ); ?>
 				</div>
 			<?php endwhile; ?>

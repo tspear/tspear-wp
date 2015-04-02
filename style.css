@@ -89,8 +89,8 @@ html, body {
 .sitefooter, .push {
   height: 370px; }
 
-div.portfolio-entry {
-  margin: 0 0.5em 0.5em 0; }
+.portfolio-entry {
+  margin-bottom: 2em; }
 
 .portfolio-entry-title {
   display: none; }

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"array",
+				"array"
+			],
+			[
 				"col",
 				"color"
 			],
@@ -123,6 +127,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "archive-jetpack-portfolio.php",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/_jetpack-portfolio.scss",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -136,15 +164,27 @@
 		"selected_items":
 		[
 			[
+				"",
+				"About"
+			],
+			[
+				"tbflu",
+				"Snippet: Bootstrap fluid layout"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
 				"pack",
 				"Package Control: Install Package"
 			],
 			[
 				"inde",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"ind",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -158,10 +198,6 @@
 			[
 				"in",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"",
-				"ASCII Decorator: Font Selector"
 			],
 			[
 				"a",
@@ -213,48 +249,51 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass"
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear"
 	],
 	"file_history":
 	[
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_layout.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_typography.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/search.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/header.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/404.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/searchform.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/style.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/page.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/plugins/bs-image-shortcode.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_variables.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_footer.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/footer.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/.sass-cache/8ce5f41cf9506dfdbc52087c966f5eddaff370ec/_variables.scssc",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/public/components/bootstrap/less/variables.less",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/variables.less",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/mixins/nav-vertical-align.less",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_layout.scss",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_typography.scss",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/style.scss",
 		"/Users/tim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/public/components/jquery/src/css.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/css.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/style.css",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/js/scrollspy.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/core/ready.js",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_header.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/.gitignore",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_jetpack-portfolio.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_stickyfooter.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/sass/style.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/css/var/cssExpand.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/tag.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content.php",
 		"/Users/tim/.bash_profile",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
 		"/Users/tim/Desktop/lll.htnml",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/jumbotron.less",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/var/toString.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/manipulation/_evalUrl.js",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/header.php",
 		"/Users/tim/Desktop/spotify.html",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/tspear-wp.sublime-project",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com.dev/wp-content/themes/tspear/archive.php",
@@ -341,12 +380,7 @@
 		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-nocontainer.php",
 		"/Users/tvroom/Dropbox/Work/sitedev/WHI-site/CNAME",
 		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/style.old",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page.php",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/content-page.php",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-services.php",
-		"/Users/tvroom/Desktop/tspear.github.io/README.md",
-		"/Users/tvroom/Desktop/tspear.github.io/index.html",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-config.php"
+		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page.php"
 	],
 	"find":
 	{
@@ -365,6 +399,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"portfolio-thumb",
 			"/public",
 			"default",
 			"<a ",
@@ -444,8 +479,101 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "archive-jetpack-portfolio.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/sass/_jetpack-portfolio.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sass/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -466,11 +594,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.592752119722,
 			1.0
 		],
 		"rows":
@@ -506,48 +641,96 @@
 		"selected_items":
 		[
 			[
-				"footer",
-				"css/sass/_footer.scss"
-			],
-			[
 				"vari",
 				"css/sass/_variables.scss"
 			],
 			[
-				"var",
-				"bower_components/bootstrap/less/variables.less"
+				"lay",
+				"css/sass/_layout.scss"
+			],
+			[
+				"jet",
+				"css/sass/_jetpack-portfolio.scss"
+			],
+			[
+				"thum",
+				"content-thumbnail.php"
+			],
+			[
+				"se",
+				"search.php"
+			],
+			[
+				"sin",
+				"single.php"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"",
+				"css/sass/_typography.scss"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"typ",
+				"css/sass/_typography.scss"
+			],
+			[
+				"searc",
+				"searchform.php"
 			],
 			[
 				"scss",
 				"css/sass/style.scss"
 			],
 			[
-				"st",
-				"css/sass/style.scss"
+				"fun",
+				"functions.php"
 			],
 			[
-				"",
-				"single-jetpack-portfolio.php"
+				"functio",
+				"functions.php"
 			],
 			[
-				"sin",
-				"single-jetpack-portfolio.php"
-			],
-			[
-				"conten",
-				"content.php"
+				"404",
+				"404.php"
 			],
 			[
 				"con",
 				"content.php"
 			],
 			[
-				"foot",
-				"footer.php"
+				"func",
+				"functions.php"
 			],
 			[
-				"jet",
-				"single-jetpack-portfolio.php"
+				"page",
+				"page.php"
+			],
+			[
+				"footer",
+				"css/sass/_footer.scss"
+			],
+			[
+				"var",
+				"bower_components/bootstrap/less/variables.less"
+			],
+			[
+				"st",
+				"css/sass/style.scss"
+			],
+			[
+				"conten",
+				"content.php"
+			],
+			[
+				"foot",
+				"footer.php"
 			],
 			[
 				"sty",
@@ -558,20 +741,12 @@
 				"style.css"
 			],
 			[
-				"fun",
-				"functions.php"
-			],
-			[
 				"head",
 				"header.php"
 			],
 			[
 				"arc",
 				"archive.php"
-			],
-			[
-				"hea",
-				"header.php"
 			],
 			[
 				"inde",
@@ -622,14 +797,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 244.0,
 	"status_bar_visible": true,
 	"template_settings":
