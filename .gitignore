@@ -2,3 +2,5 @@ public/
 *.scssc
 js/lib/
 *.sublime-workspace
+
+*.sublime-workspace
