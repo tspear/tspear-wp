@@ -4,7 +4,7 @@
 	<?php if ( has_post_thumbnail()) : ?>
 		<?php the_post_thumbnail('large', array('class' => 'img-responsive')); ?>
 	<?php else: ?>
-		<img src="<? echo ts_placeholder() ?>" class="img-responsive" />
+		<img src="<?php echo ts_placeholder() ?>" class="img-responsive" />
 	<?php endif; ?>
 	<!-- title -->
 	<?php //the_title('<h4>','</h4>'); ?>

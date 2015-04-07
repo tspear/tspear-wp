@@ -51,11 +51,9 @@
         ga('create', 'UA-135674-13', 'tspear.com');
         ga('send', 'pageview');
       </script>
-
-      <? else: ?>
+      <?php else: ?>
       <!-- ANALYTICS: NOT LOADED -->
-
-    <? endif ?>
+    <?php endif; ?>
 
     <!-- WP FOOTER -->
     <?php wp_footer(); ?>
