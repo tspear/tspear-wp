@@ -84,7 +84,8 @@
 
 
 	function ts_placeholder() {	
-	 	$imgurl = get_template_directory_uri() . "/img/ph_576p.gif";
+	 	$imgurl = "http://placehold.it/720x576&text=No+Featured+Image";		
+	 	// $imgurl = get_template_directory_uri() . "/img/ph_576p.gif";
 		return $imgurl;
 	};
 
