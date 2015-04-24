@@ -7,6 +7,6 @@
 		<img src="<?php echo ts_placeholder() ?>" class="img-responsive" alt="No Feaured Image"/>
 	<?php endif; ?>
 	<!-- title -->
-	<?php //the_title('<h4>','</h4>'); ?>
+	<?php the_title('<h4>','</h4>'); ?>
 </a>
 <!-- /content-thumbnail.php -->
