@@ -128,34 +128,21 @@
 	"buffers":
 	[
 		{
+			"contents": "<?php\n/**\n *\n * @package WordPress\n * @subpackage tspear\n * @since tspear 1.0\n */\nget_header(); ?>\n\n	<div class=\"container\">\n\n		<h1>Work</h1>\n	\n		<?php if ( have_posts() ) : ?>\n\n			<div class=\"row\">\n			<?php /* The loop */ ?>\n			<?php while ( have_posts() ) : the_post(); ?>\n				<div class=\"col-sm-6 col-md-4 portfolio-entry\">\n					<?php get_template_part( 'content', 'thumbnail' ); ?>\n				</div>\n			<?php endwhile; ?>\n			</div>\n\n		<?php else : ?>\n			<?php get_template_part( 'content', 'none' ); ?>\n		<?php endif; ?>\n\n	</div><!-- #container -->\n\n<?php get_footer(); ?>",
 			"file": "archive-jetpack-portfolio.php",
+			"file_size": 569,
+			"file_write_time": 130743475830000000,
 			"settings":
 			{
-				"buffer_size": 550,
+				"buffer_size": 569,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "header.php",
+			"file": "css/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 2963,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 2466,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 1540,
+				"buffer_size": 341,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,15 +150,7 @@
 			"file": "css/sass/_jetpack-portfolio.scss",
 			"settings":
 			{
-				"buffer_size": 118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/sass/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 216,
+				"buffer_size": 135,
 				"line_ending": "Unix"
 			}
 		}
@@ -188,6 +167,14 @@
 		"selected_items":
 		[
 			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
 				"",
 				"About"
 			],
@@ -202,10 +189,6 @@
 			[
 				"ind",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
 			],
 			[
 				"inde",
@@ -252,7 +235,7 @@
 				"Set Syntax: NAnt Build File"
 			]
 		],
-		"width": 449.0
+		"width": 373.0
 	},
 	"console":
 	{
@@ -273,33 +256,40 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear"
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass"
 	],
 	"file_history":
 	[
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_layout.scss",
+		"/Users/tim/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/tim/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_typography.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
+		"/Users/macmini/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_jetpack-portfolio.scss",
+		"/Users/macmini/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_variables.scss",
+		"/Users/macmini/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/style.scss",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content-thumbnail.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/footer.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/archive-jetpack-portfolio.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/header.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
+		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_layout.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/search.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/header.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/content.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/404.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/searchform.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/style.scss",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/functions.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/page.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/plugins/bs-image-shortcode.php",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/single-jetpack-portfolio.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_variables.scss",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/_footer.scss",
-		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/footer.php",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/css/sass/.sass-cache/8ce5f41cf9506dfdbc52087c966f5eddaff370ec/_variables.scssc",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/public/components/bootstrap/less/variables.less",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/variables.less",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/bootstrap/less/mixins/nav-vertical-align.less",
-		"/Users/tim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/public/components/jquery/src/css.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/bower_components/jquery/src/css.js",
 		"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear/style.css",
@@ -399,12 +389,7 @@
 		"/Users/tvroom/Desktop/default",
 		"/Users/tvroom/Desktop/default-ssl",
 		"/Users/tvroom/Dropbox/Work/sitedev/addntox/index.html",
-		"/Users/tvroom/Desktop/templeton-propsearch_scratch.php",
-		"/Users/tvroom/Dropbox/Work/sitedev/TWC.current/wp-content/themes/TWC/style.css",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page-nocontainer.php",
-		"/Users/tvroom/Dropbox/Work/sitedev/WHI-site/CNAME",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/style.old",
-		"/Users/tvroom/Dropbox/Work/sitedev/templetons/wp-content/themes/templetonsrealty/page.php"
+		"/Users/tvroom/Desktop/templeton-propsearch_scratch.php"
 	],
 	"find":
 	{
@@ -415,6 +400,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/tim/Dropbox/Work/sitedev/tspear.com/wp-content/themes/tspear",
 			""
 		]
 	},
@@ -423,6 +409,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<? ",
 			"portfolio-thumb",
 			"/public",
 			"default",
@@ -503,7 +490,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -512,75 +499,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								159,
-								159
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2466,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								567,
+								567
 							]
 						],
 						"settings":
@@ -594,36 +521,6 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "style.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 593.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
 				}
 			]
 		},
@@ -632,20 +529,48 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 1,
+					"file": "css/sass/_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "css/sass/_jetpack-portfolio.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								69,
+								69
 							]
 						],
 						"settings":
@@ -656,35 +581,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/sass/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								216,
-								216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -718,7 +615,7 @@
 		"cols":
 		[
 			0.0,
-			0.868678196745,
+			0.518476834844,
 			1.0
 		],
 		"rows":
@@ -754,6 +651,22 @@
 		"selected_items":
 		[
 			[
+				"jet",
+				"archive-jetpack-portfolio.php"
+			],
+			[
+				"scsss",
+				"css/sass/_layout.scss"
+			],
+			[
+				"scss",
+				"css/sass/_layout.scss"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
 				"func",
 				"functions.php"
 			],
@@ -768,10 +681,6 @@
 			[
 				"lay",
 				"css/sass/_layout.scss"
-			],
-			[
-				"jet",
-				"css/sass/_jetpack-portfolio.scss"
 			],
 			[
 				"thum",
@@ -800,10 +709,6 @@
 			[
 				"searc",
 				"searchform.php"
-			],
-			[
-				"scss",
-				"css/sass/style.scss"
 			],
 			[
 				"fun",
@@ -840,10 +745,6 @@
 			[
 				"conten",
 				"content.php"
-			],
-			[
-				"foot",
-				"footer.php"
 			],
 			[
 				"sty",
@@ -910,7 +811,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
