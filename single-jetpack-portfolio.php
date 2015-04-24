@@ -13,9 +13,10 @@ get_header(); ?>
 		<?php get_template_part( 'content', get_post_format() ); ?>
 	 
 
-		<? 
+	<?php 
 		// Add taglist:
-		// php get_template_part('content-portfolio-taglist'); ?>
+		get_template_part('content-portfolio-taglist');
+	?>
 		
 	<?php /* End The loop */ ?>
 	<?php endwhile; ?>
