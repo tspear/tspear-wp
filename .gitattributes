@@ -1,2 +1,3 @@
 bower_components/ export-ignore
 config.codekit export-ignore
+css/sass/ export-ignore
