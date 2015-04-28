@@ -4,9 +4,11 @@
 	<?php if ( has_post_thumbnail()) : ?>
 		<?php the_post_thumbnail('large', array('class' => 'img-responsive')); ?>
 	<?php else: ?>
-		<img src="<?php echo ts_placeholder() ?>" class="img-responsive" alt="No Feaured Image"/>
+		<img src="<?php echo ts_placeholder() ?>" class="img-responsive" alt="No Feature Image"/>
 	<?php endif; ?>
 	<!-- title -->
-	<?php the_title('<h4>','</h4>'); ?>
+	<div class="thumbnail-caption">
+			<?php the_title('<strong>', '</strong>'); ?>		
+	</div>
 </a>
 <!-- /content-thumbnail.php -->
