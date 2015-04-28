@@ -91,6 +91,15 @@ html, body {
 
 .portfolio-entry {
   margin-bottom: 1em; }
+  .portfolio-entry .thumbnail-caption {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    border-top: 1px solid #c3c3c3; }
+  .portfolio-entry a:hover {
+    color: #777; }
 
 .portfolio-entry-title {
   display: none; }
