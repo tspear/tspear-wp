@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div class="container">
 
-		<h1>Work</h1>
+		<h1>Portfolio</h1>
 	
 		<?php if ( have_posts() ) : ?>
 
