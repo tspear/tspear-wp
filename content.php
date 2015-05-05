@@ -9,12 +9,11 @@
 <article <?php post_class(); ?> >
 	<header class="entry-header">
 	<div class="page-header">
-
 		<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-		<?php endif; // is_single() ?>
+		<?php endif;?>
 	</div>
 	</header><!-- .entry-header -->
 
