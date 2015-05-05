@@ -20,6 +20,7 @@
 get_header(); ?>
 	<div class="container">
 		<?php if ( have_posts() ) : ?>
+			
 			<header class="archive-header">
 				<h1 class="archive-title"><?php
 					if ( is_day() ) :
@@ -34,14 +35,14 @@ get_header(); ?>
 				?></h1>
 			</header><!-- .archive-header -->
 
-<div class="row">
+		<div class="row">
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="col-sm-6 portfolio-entry">
-					<?php get_template_part( 'content', 'thumbnail' ); ?>					
+				<div class="col-sm-6 col-md-4 portfolio-entry">
+					<?php get_template_part( 'content', 'thumbnail' ); ?>
 				</div>
 			<?php endwhile; ?>
-</div>
+		</div>
 
 		<?php else : ?>
 			<?php get_template_part( 'content', get_post_format() ); ?>
