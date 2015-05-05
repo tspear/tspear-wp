@@ -1,3 +1,4 @@
+<!-- archive.php -->
 <?php
 /**
  * The template for displaying Archive pages
@@ -17,7 +18,6 @@
  * @since Twenty Thirteen 1.0
  */
 get_header(); ?>
-<!-- archive.php -->
 	<div class="container">
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
@@ -37,7 +37,7 @@ get_header(); ?>
 <div class="row">
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="col-sm-6">
+				<div class="col-sm-6 portfolio-entry">
 					<?php get_template_part( 'content', 'thumbnail' ); ?>					
 				</div>
 			<?php endwhile; ?>
