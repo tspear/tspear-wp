@@ -22,7 +22,7 @@ get_header(); ?>
 	<?php endwhile; ?>
 
 	<h3>More work</h3>
-	<?php echo do_shortcode('[portfolio display_types=false display_tags=false display_content=false columns=6 showposts=20]'); ?>
+	<?php echo do_shortcode('[portfolio display_types=false display_tags=false display_content=false columns=4 showposts=20]'); ?>
 
 </div>
 <?php get_footer(); ?>
