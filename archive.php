@@ -22,7 +22,8 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 			
 			<header class="archive-header">
-				<h1 class="archive-title"><?php
+				<h1 class="archive-title">
+				<?php
 					if ( is_day() ) :
 						printf( __( 'Daily Archives: %s', 'twentythirteen' ), get_the_date() );
 					elseif ( is_month() ) :
@@ -30,9 +31,10 @@ get_header(); ?>
 					elseif ( is_year() ) :
 						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
 					else :
-						echo 'Portfolio / '.single_tag_title( '', false );
+						the_archive_title();
 					endif;
-				?></h1>
+				?>
+				</h1>
 			</header><!-- .archive-header -->
 
 		<div class="row">
@@ -49,5 +51,4 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</div><!-- #primary -->
-
 <?php get_footer(); ?>
