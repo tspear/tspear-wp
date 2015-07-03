@@ -1,5 +1,5 @@
 tspear-wp
 =========
 
-Personal Site WP Theme
+Personal Site WP Theme:
 http://tspear.com/

@@ -5644,7 +5644,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/README.md",
 		"maskEmailAddresses": 1,
@@ -5749,9 +5749,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "tspear WP Theme",
+	"displayValue": "tspear - WP Theme",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "globe_blue"
+	"iconImageName": "meme-lotr"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
