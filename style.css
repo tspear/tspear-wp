@@ -23,10 +23,17 @@ a:hover {
   text-decoration: none;
   color: white; }
 
-.superjumbo {
-  font-size: 10em;
+.text-xl {
+  font-size: 5em;
+  font-size: 5rem;
   font-weight: bold;
-  line-height: 1.2; }
+  line-height: 1.1; }
+
+.text-xxl {
+  font-size: 10em;
+  font-size: 10rem;
+  font-weight: bold;
+  line-height: 1.1; }
 
 /* breadcrumbs */
 .breadcrumb {
