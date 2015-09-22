@@ -21,7 +21,7 @@
 			wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );
 			wp_enqueue_script('bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'), null, true);
 			// Google Analytics
-			wp_enqueue_script('ga', get_template_directory_uri().'/js/analytics.js', null, null, true);			
+			// wp_enqueue_script('ga', get_template_directory_uri().'/js/analytics.js', null, null, true);			
 		} else {
 			// local version
 			wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css' );
