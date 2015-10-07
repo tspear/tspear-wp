@@ -7,3 +7,6 @@ $font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mid-color: #777;
 $dark-color: darken($mid-color,30);
 $light-color: lighten($mid-color,30);
+
+// Bootstrap responsive sizing
+$screen-sm-min: 768px;

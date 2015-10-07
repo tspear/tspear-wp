@@ -17,16 +17,27 @@ a:hover
 }
 
 .text-xl {
+	font-size: 3em;
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 1.1;
+}
+.text-xxl {
 	font-size: 5em;
 	font-size: 5rem;
 	font-weight: bold;
 	line-height: 1.1;
 }
-.text-xxl {
-	font-size: 10em;
-	font-size: 10rem;
-	font-weight: bold;
-	line-height: 1.1;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+	.text-xxl {
+		font-size: 10em;
+		font-size: 10em;
+	}
+	.text-xl {
+		font-size: 5em;
+		font-size: 5rem;
+	}
 }
 
 /* breadcrumbs */
@@ -34,3 +45,6 @@ a:hover
 .breadcrumb {
 	background-color: $light-color;
 }
+
+
+
