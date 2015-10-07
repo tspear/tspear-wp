@@ -37,13 +37,13 @@ a:hover {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .text-xxl {
-    font-size: 10em;
-    font-size: 10em; }
-
   .text-xl {
     font-size: 5em;
-    font-size: 5rem; } }
+    font-size: 5rem; }
+
+  .text-xxl {
+    font-size: 10em;
+    font-size: 10em; } }
 /* breadcrumbs */
 .breadcrumb {
   background-color: #c3c3c3; }

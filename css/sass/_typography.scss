@@ -30,13 +30,13 @@ a:hover
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) {
-	.text-xxl {
-		font-size: 10em;
-		font-size: 10em;
-	}
 	.text-xl {
 		font-size: 5em;
 		font-size: 5rem;
+	}
+	.text-xxl {
+		font-size: 10em;
+		font-size: 10em;
 	}
 }
 
