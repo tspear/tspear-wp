@@ -97,6 +97,8 @@ img#wpstats {
   .sitefooter ul {
     list-style-type: none;
     padding-left: 0; }
+  .sitefooter .btn-default {
+    color: #333; }
 
 /* sticky footer */
 html, body {
