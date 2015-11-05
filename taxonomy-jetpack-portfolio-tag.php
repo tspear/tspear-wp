@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div class="container">
 
-		<h1><a href="<?php echo home_url( 'portfolio' );?>">Portfolio</a> - <?php single_tag_title('Projects tagged '); ?></h1>
+		<h1><a href="<?php echo home_url( 'portfolio/' );?>">Portfolio</a> - <?php single_tag_title('Projects tagged '); ?></h1>
 
 		<?php if ( have_posts() ) : ?>
 
