@@ -26,17 +26,6 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 		<?php endif; ?>
 
-
-	<!-- DEBUGGER -->
-	<?php if(WP_DEBUG): ?>
-		<pre><?php
-			var_dump(home_url());
-			var_dump(get_bloginfo());
-		?></pre>
-	<?php endif ?>
-	<!-- / DEBUGGER -->
-
-
 	</div><!-- #container -->
 
 <?php get_footer(); ?>
