@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tim Spear"><!-- BS author -->
     
-    <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lib/html5shiv.js"></script>
@@ -34,7 +31,7 @@
       <div class="container">
 
           <div class="brandlogo">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logocircles.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tspearlogo-centered.svg" width="32px" height="32px" alt="tspear design logo">
           </div>
 
           <!-- Brand and toggle get grouped for better mobile display -->

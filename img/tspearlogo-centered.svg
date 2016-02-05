@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="443px" height="441px" viewBox="0 0 443 441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>tspearlogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="tspearlogo-centered-bg" sketch:type="MSLayerGroup" transform="translate(16.000000, 15.000000)">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M194.743,97.5 C194.743,151.207 151.196,194.752 97.49,194.752 C43.732,194.752 0.199,151.207 0.199,97.5 C0.199,43.733 43.732,0.2 97.49,0.2 C151.196,0.2 194.743,43.733 194.743,97.5 L194.743,97.5 Z" id="Shape" fill="#F2F2F2"></path>
+                <path d="M409.8,97.5 C409.8,151.207 366.253,194.752 312.496,194.752 C258.779,194.752 215.246,151.207 215.246,97.5 C215.246,43.733 258.779,0.2 312.496,0.2 C366.253,0.2 409.8,43.733 409.8,97.5 L409.8,97.5 Z" id="Shape" fill="#0099FF"></path>
+                <path d="M409.8,312.5 C409.8,366.269 366.253,409.8 312.496,409.8 C258.779,409.8 215.246,366.269 215.246,312.5 C215.246,258.793 258.779,215.246 312.496,215.246 C366.253,215.246 409.8,258.793 409.8,312.5 L409.8,312.5 Z" id="Shape" fill="#000000"></path>
+                <path d="M194.743,312.5 C194.743,366.269 151.196,409.8 97.49,409.8 C43.732,409.8 0.199,366.269 0.199,312.5 C0.199,258.793 43.732,215.246 97.49,215.246 C151.196,215.246 194.743,258.793 194.743,312.5 L194.743,312.5 Z" id="Shape" fill="#FF9900"></path>
+            </g>
+        </g>
+    </g>
+</svg>

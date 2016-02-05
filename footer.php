@@ -6,7 +6,7 @@
     <footer class="sitefooter" role="navigation">
         <div class="container">
             
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logocirclesBW.png">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tspearlogobw.svg" width="32px" height="32px" alt="tspear design logo">
             
             <div class="row">
                     <?php dynamic_sidebar( 'footer left' ); ?>
