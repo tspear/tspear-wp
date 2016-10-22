@@ -6,7 +6,16 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tim Spear"><!-- BS author -->
-    
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KH5788');</script>
+    <!-- End Google Tag Manager -->
+
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/lib/html5shiv.js"></script>
@@ -23,6 +32,11 @@
   </head>
 
   <body class="Site custom-background">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH5788"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="wrapper"> <!-- STICKY FOOTER -->
 
@@ -67,7 +81,7 @@
                 'depth'           => 0,
                 'walker'          => ''
               );
-              wp_nav_menu( $defaults ); 
+              wp_nav_menu( $defaults );
               ?>
           </nav> <!-- /links -->
 
