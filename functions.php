@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * tspear functions and definitions.
  *
@@ -15,13 +15,11 @@
 	 */
 	function tspear_scripts() {
 		define("LIVEDOMAIN", "tspear.com");
-		// Boostrap CSS		
+		// Boostrap CSS
 		if (strpos($_SERVER['HTTP_HOST'], LIVEDOMAIN) !== FALSE) {
 			// CDN
 			wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );
 			wp_enqueue_script('bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'), null, true);
-			// Google Analytics
-			// wp_enqueue_script('ga', get_template_directory_uri().'/js/analytics.js', null, null, true);			
 		} else {
 			// local version
 			wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css' );
@@ -86,8 +84,8 @@
 	add_action( 'widgets_init', 'ts_widgets_init' );
 
 
-	function ts_placeholder() {	
-	 	$imgurl = "http://placehold.it/1024x576&text=No+Featured+Image";		
+	function ts_placeholder() {
+	 	$imgurl = "http://placehold.it/1024x576&text=No+Featured+Image";
 	 	// $imgurl = get_template_directory_uri() . "/img/ph_576p.gif";
 		return $imgurl;
 	};
