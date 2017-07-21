@@ -18,8 +18,8 @@
 		// Boostrap CSS
 		if (strpos($_SERVER['HTTP_HOST'], LIVEDOMAIN) !== FALSE) {
 			// CDN
-			wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );
-			wp_enqueue_script('bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'), null, true);
+			wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
+			wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), null, true);
 		} else {
 			// local version
 			wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bower_components/bootstrap/dist/css/bootstrap.css' );
